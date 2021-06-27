@@ -1,7 +1,5 @@
 #include<iostream>
 #include<conio.h>
-#include<string>
-#include<stdlib.h>
 
 using namespace std;
 
@@ -2047,7 +2045,7 @@ void test(char const *ch) {
                          {                                                                                     \n\n\t\t\
                              cout << “Show function of Base”;}                                                  \n\n\t\t\
                       };                                                                                       \n\n\t\t\
-                       class Base{                                                                             \n\n\t\t\
+                       class Derived{                                                                             \n\n\t\t\
                          public:                                                                                \n\n\t\t\
                          void display()                                                                         \n\n\t\t\
                          {                                                                                      \n\n\t\t\
@@ -2073,7 +2071,7 @@ void test(char const *ch) {
                                   \n\n\n\t\t Display function of Base\t\t\
                                   \n\n\t\t Show function of Base\t\t\
                                   \n\n\t\t Display function of Base\t\t\
-                                  \n\n\t\t Display function of Derived\t\t\
+                                  \n\n\t\t Show function of Derived\t\t\
              \
              \n\n\n\t ** Press any Key To Go To Back Page **";
              getch();
@@ -2132,6 +2130,7 @@ void test(char const *ch) {
                                   \n\n\n\t\t Base Constructor\t\t\
                                   \n\n\t\t Derived Constructor\t\t\
                                   \n\n\t\t Derived Destructor\t\t\
+				  \n\n\t\t Base Destructor\t\t\
                                 ";
 
                     cout<<"\n\n\n\t ** Press any Key To Go To Back Page **";
